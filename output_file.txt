@@ -1,5 +1,0 @@
-1. Top 3 popular days and times for meetings:
-Day: Tuesday, Time: 13:00 - 14:00, Meeting Count: 2
-Day: Thursday, Time: 14:00 - 15:00, Meeting Count: 2
-Day: Wednesday, Time: 10:00 - 11:00, Meeting Count: 2
-=======================================================================================================
