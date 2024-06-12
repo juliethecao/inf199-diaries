@@ -1,10 +1,6 @@
-import csv
 import pandas as pd
-import pymongo
 from pymongo import MongoClient
-from pymongo.server_api import ServerApi
-
-df=pd.read_csv("d-p4.csv", header=[0,1])
+import argparse
 
 def create_table(df, start_index, end_index):
     """
@@ -22,60 +18,67 @@ def create_table(df, start_index, end_index):
     table.columns = [f"{col[1]}" for col in table.columns]
     return table
 
-table_ranges = [
-    (0, 18),  # table 1: monday
-    (21, 39),  # table 2: tuesday
-    (42, 60),  # table 3: wednesday
-    (63, 81),  # table 4: thursday
-    (84, 102),  # table 5: friday
-    (105, 123)  # table 6: saturday
-]
-days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-
-# create dict to store dfs for each table
-table_data = []
-
-# create dfs for each table
-for idx, (start, end) in enumerate(table_ranges, start=0):
-    table_df = create_table(df, start, end)
-    table_dict = table_df.to_dict(orient='records')
-    table_data.append(table_dict)
-
-client = MongoClient("<uri>")
-print(client.test)
-print(client.list_database_names())
+def extract_table_data(df, table_ranges):
+    table_data = []
+    for start, end in table_ranges:
+        table_df = create_table(df, start, end)
+        table_dict = table_df.to_dict(orient='records')
+        table_data.append(table_dict)
+    return table_data
 
 def checkExistence_DB(DB_NAME, client):
     DBlist = client.list_database_names()
     if DB_NAME in DBlist:
         print(f"DB: '{DB_NAME}' exists")
         return True
-    print(f"DB: '{DB_NAME}' not yet present present in the DB")
+    print(f"DB: '{DB_NAME}' not yet present in the DB")
     return False
-
-
-_ = checkExistence_DB(DB_NAME="practiceDiaries", client=client)
-
-db=client["practiceDiaries"]
-print(db)
-print(client.list_database_names())
-
-COLLECTION_NAME = "practiceDiariesDetails"
-collection = db[COLLECTION_NAME]
 
 def checkExistence_COL(COLLECTION_NAME, DB_NAME, db):
     collection_list = db.list_collection_names()
-
     if COLLECTION_NAME in collection_list:
         print(f"Collection:'{COLLECTION_NAME}' in Database:'{DB_NAME}' exists")
         return True
-
-    print(f"Collection:'{COLLECTION_NAME}' in Database:'{DB_NAME}' does not exists OR \n\
-    no documents are present in the collection")
+    print(f"Collection:'{COLLECTION_NAME}' in Database:'{DB_NAME}' does not exist OR no documents are present in the collection")
     return False
 
+def main():
+    parser = argparse.ArgumentParser(description='Convert CSV to MongoDB.')
+    parser.add_argument('filename', type=str, help='The CSV file to convert')
+    args = parser.parse_args()
 
-_ = checkExistence_COL(COLLECTION_NAME="practiceDiariesDetails", DB_NAME="practiceDiaries", db=db)
+    df = pd.read_csv(args.filename, header=[0, 1])
 
-for data in table_data:
-    collection.insert_many(data)
+    table_ranges = [
+        (0, 18),  # table 1: monday
+        (21, 39),  # table 2: tuesday
+        (42, 60),  # table 3: wednesday
+        (63, 81),  # table 4: thursday
+        (84, 102),  # table 5: friday
+        (105, 123)  # table 6: saturday
+    ]
+
+    table_data = extract_table_data(df, table_ranges)
+
+    client = MongoClient("<uri>")
+    print(client.test)
+    print(client.list_database_names())
+
+    _ = checkExistence_DB(DB_NAME="practiceDiaries", client=client)
+
+    db = client["practiceDiaries"]
+    print(db)
+    print(client.list_database_names())
+
+    COLLECTION_NAME = "practiceDiariesDetails"
+    collection = db[COLLECTION_NAME]
+
+    _ = checkExistence_COL(COLLECTION_NAME="practiceDiariesDetails", DB_NAME="practiceDiaries", db=db)
+
+    for data in table_data:
+        collection.insert_many(data)
+    
+    print(f"CSV file '{args.filename}' has been converted to MongoDB.")
+
+if __name__ == "__main__":
+    main()

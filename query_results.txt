@@ -1,41 +1,51 @@
 1. Top 3 popular days and times for meetings:
-   Day: Thursday, Time: 14:00 - 15:00, Count: 2
-   Day: Tuesday, Time: 13:00 - 14:00, Count: 2
-   Day: Wednesday, Time: 10:00 - 11:00, Count: 2
+   Day: Wednesday  | Time: 11:00 - 12:00 | Count: 3
+   Day: Wednesday  | Time: 10:00 - 11:00 | Count: 3
+   Day: Monday     | Time: 10:00 - 11:00 | Count: 2
 =======================================================================================================
 2. Top 3 popular days and times for solo work (code):
-   Day: Friday, Time: 15:00 - 16:00, Count: 1
-   Day: Friday, Time: 16:00 - 17:00, Count: 1
-   Day: Thursday, Time: 13:00 - 14:00, Count: 1
+   Day: Wednesday  | Time: 09:00 - 10:00 | Count: 1
+   Day: Friday     | Time: 14:00 - 15:00 | Count: 1
+   Day: Thursday   | Time: 11:00 - 12:00 | Count: 1
 =======================================================================================================
 3. Top 3 popular days and times for lunch breaks:
-   Day: Friday, Time: 12:00 - 13:00, Count: 3
-   Day: Wednesday, Time: 12:00 - 13:00, Count: 3
-   Day: Thursday, Time: 12:00 - 13:00, Count: 2
+   Day: Wednesday  | Time: 12:00 - 13:00 | Count: 3
+   Day: Friday     | Time: 12:00 - 13:00 | Count: 3
+   Day: Thursday   | Time: 12:00 - 13:00 | Count: 2
 =======================================================================================================
 4. Top 3 popular days and times for creativity:
-   Day: Thursday, Time: 11:00 - 12:00, Count: 3
-   Day: Wednesday, Time: 15:00 - 16:00, Count: 2
-   Day: Friday, Time: 15:00 - 16:00, Count: 2
+   Day: Friday     | Time: 16:00 - 17:00 | Count: 3
+   Day: Friday     | Time: 14:00 - 15:00 | Count: 3
+   Day: Thursday   | Time: 11:00 - 12:00 | Count: 3
 =======================================================================================================
 5. Total time spent on creative work subcategories:
-   Sub-category: slides, Total Time: 0 hours
-   Sub-category: design, Total Time: 3 hours
-   Sub-category: hackathon, Total Time: 0 hours
-   Sub-category: architecture, Total Time: 10 hours
-   Sub-category: feature, Total Time: 3 hours
-   Sub-category: data, Total Time: 24 hours
-   Sub-category: tools, Total Time: 3 hours
-   Sub-category: effects, Total Time: 4 hours
-   Sub-category: plan, Total Time: 7 hours
-   Sub-category: learn, Total Time: 0 hours
-   Sub-category: replication, Total Time: 3 hours
+   Sub-category: slides          | Total Time: 0 hours
+   Sub-category: design          | Total Time: 7 hours
+   Sub-category: hackathon       | Total Time: 0 hours
+   Sub-category: architecture    | Total Time: 10 hours
+   Sub-category: feature         | Total Time: 10 hours
+   Sub-category: data            | Total Time: 24 hours
+   Sub-category: tools           | Total Time: 3 hours
+   Sub-category: effects         | Total Time: 4 hours
+   Sub-category: plan            | Total Time: 11 hours
+   Sub-category: learn           | Total Time: 0 hours
+   Sub-category: replication     | Total Time: 3 hours
 =======================================================================================================
 6. Amount of time during the work-week actually doing 'work' vs personal stuff (and lunch):
-   Day: Friday, Work Time: 1.17 hours, Personal Time: 0.07 hours
-   Day: Monday, Work Time: 0.65 hours, Personal Time: 0.05 hours
-   Day: Saturday, Work Time: 0.32 hours, Personal Time: 0.02 hours
-   Day: Thursday, Work Time: 1.27 hours, Personal Time: 0.07 hours
-   Day: Tuesday, Work Time: 1.13 hours, Personal Time: 0.08 hours
-   Day: Wednesday, Work Time: 1.22 hours, Personal Time: 0.1 hours
+   Day: Friday     | Work Time: 86.0 hours | Personal Time: 4.0 hours
+   Day: Monday     | Work Time: 59.0 hours | Personal Time: 3.0 hours
+   Day: Saturday   | Work Time: 19.0 hours | Personal Time: 1.0 hours
+   Day: Thursday   | Work Time: 90.0 hours | Personal Time: 4.0 hours
+   Day: Tuesday    | Work Time: 85.0 hours | Personal Time: 5.0 hours
+   Day: Wednesday  | Work Time: 93.0 hours | Personal Time: 6.0 hours
+=======================================================================================================
+7. Top 3 participants with the most hours in the 'creative' category:
+   Participant: p2    | Total Hours: 32 hours
+   Participant: p1    | Total Hours: 12 hours
+   Participant: p5    | Total Hours: 7 hours
+=======================================================================================================
+8. Top 3 participants with the least hours in the 'creative' category:
+   Participant: p4    | Total Hours: 5 hours
+   Participant: p5    | Total Hours: 7 hours
+   Participant: p1    | Total Hours: 12 hours
 =======================================================================================================

@@ -1,6 +1,4 @@
-import pymongo
 from pymongo import MongoClient
-from collections import Counter
 
 client = MongoClient("<uri>")
 db = client["practiceDiaries"]
@@ -15,7 +13,7 @@ def write_query_results(pipeline, header, file_name):
             day = result["_id"]["day"]
             time = result["_id"]["time"]
             count = result["count"]
-            f.write(f"   Day: {day}, Time: {time}, Count: {count}\n")
+            f.write(f"   Day: {day:<10} | Time: {time:<10} | Count: {count}\n")
         f.write("=======================================================================================================\n")
 
 def write_creative_results(pipeline, header, file_name):
@@ -25,7 +23,7 @@ def write_creative_results(pipeline, header, file_name):
     with open(file_name, "a") as f:
         f.write(header + "\n")
         for key, value in result.items():
-            f.write(f"   Sub-category: {key}, Total Time: {value} hours\n")
+            f.write(f"   Sub-category: {key:<15} | Total Time: {value} hours\n")
         f.write("=======================================================================================================\n")
 
 def write_time_results(pipeline, header, file_name):
@@ -37,7 +35,18 @@ def write_time_results(pipeline, header, file_name):
             day = result["_id"]
             work_time = result["work_time"]
             personal_time = result["personal_time"]
-            f.write(f"   Day: {day}, Work Time: {work_time} hours, Personal Time: {personal_time} hours\n")
+            f.write(f"   Day: {day:<10} | Work Time: {work_time} hours | Personal Time: {personal_time} hours\n")
+        f.write("=======================================================================================================\n")
+
+def write_participant_results(pipeline, header, file_name):
+    results = list(collection.aggregate(pipeline))
+    
+    with open(file_name, "a") as f:
+        f.write(header + "\n")
+        for result in results:
+            participant = result["_id"]
+            hours = result["total_hours"]
+            f.write(f"   Participant: {participant:<5} | Total Hours: {hours} hours\n")
         f.write("=======================================================================================================\n")
 
 output_file = "query_results.txt"
@@ -184,6 +193,7 @@ six = [
                         {"$toInt": "$case work"},
                         {"$toInt": "$ML work"},
                         {"$toInt": "$design work"},
+                        {"$toInt": "$event"},
                         {"$toInt": "$WFH"},
                         {"$toInt": "$office"},
                         {"$toInt": "$creative"}
@@ -197,7 +207,6 @@ six = [
                         {"$toInt": "$lunch"},
                         {"$toInt": "$break"},
                         {"$toInt": "$pack up"},
-                        {"$toInt": "$event"},
                         {"$toInt": "$appt"},
                         {"$toInt": "$emergency"},
                         {"$toInt": "$life"},
@@ -210,8 +219,8 @@ six = [
     {
         "$project": {
             "_id": 1,
-            "work_time": {"$round": [{"$divide": ["$work_time", 60]}, 2]}, 
-            "personal_time": {"$round": [{"$divide": ["$personal_time", 60]}, 2]}
+            "work_time": {"$round": [{"$divide": ["$work_time", 1]}, 2]}, 
+            "personal_time": {"$round": [{"$divide": ["$personal_time", 1]}, 2]}
         }
     },
     {
@@ -219,5 +228,39 @@ six = [
     }
 ]
 write_time_results(six, "6. Amount of time during the work-week actually doing 'work' vs personal stuff (and lunch):", output_file)
+
+seven = [
+    {
+        "$group": {
+            "_id": "$participant",
+            "total_hours": {"$sum": {"$toInt": "$creative"}}
+        }
+    },
+    {
+        "$sort": {"total_hours": -1}
+    },
+    {
+        "$limit": 3
+    }
+]
+
+write_participant_results(seven, "7. Top 3 participants with the most hours in the 'creative' category:", output_file)
+
+eight = [
+     {
+        "$group": {
+            "_id": "$participant",
+            "total_hours": {"$sum": {"$toInt": "$creative"}}
+        }
+    },
+    {
+        "$sort": {"total_hours": 1}
+    },
+    {
+        "$limit": 3
+    }
+]
+
+write_participant_results(eight, "8. Top 3 participants with the least hours in the 'creative' category:", output_file)
 
 print(f"Query results have been written to '{output_file}'")
