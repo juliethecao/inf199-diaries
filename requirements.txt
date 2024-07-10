@@ -1,4 +1,11 @@
-pandas
-pymongo
-argparse
-dnspython
+dnspython==2.6.1
+numpy==2.0.0
+pandas==2.2.2
+pymongo==4.8.0
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytz==2024.1
+setuptools==70.3.0
+six==1.16.0
+tzdata==2024.1
+wheel==0.43.0
