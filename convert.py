@@ -1,6 +1,10 @@
 import pandas as pd
 from pymongo import MongoClient
 import argparse
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 def create_table(df, start_index, end_index):
     """
@@ -60,20 +64,19 @@ def main():
 
     table_data = extract_table_data(df, table_ranges)
 
-    client = MongoClient("<uri>")
+    client = MongoClient(os.environ.get('URI'))
     print(client.test)
     print(client.list_database_names())
 
-    _ = checkExistence_DB(DB_NAME="practiceDiaries", client=client)
+    _ = checkExistence_DB(DB_NAME=os.environ.get('DB'), client=client)
 
-    db = client["practiceDiaries"]
+    db = client[os.environ.get('DB')]
     print(db)
     print(client.list_database_names())
 
-    COLLECTION_NAME = "practiceDiariesDetails"
-    collection = db[COLLECTION_NAME]
+    collection = db[os.environ.get('COLLECTION')]
 
-    _ = checkExistence_COL(COLLECTION_NAME="practiceDiariesDetails", DB_NAME="practiceDiaries", db=db)
+    _ = checkExistence_COL(COLLECTION_NAME=os.environ.get('COLLECTION'), DB_NAME=os.environ.get('DB'), db=db)
 
     for data in table_data:
         collection.insert_many(data)

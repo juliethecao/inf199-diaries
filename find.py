@@ -1,8 +1,12 @@
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
-client = MongoClient("<uri>")
-db = client["practiceDiaries"]
-collection = db["practiceDiariesDetails"]
+load_dotenv()
+
+client = MongoClient(os.environ.get('URI'))
+db = client[os.environ.get('DB')]
+collection = db[os.environ.get('COLLECTION')]
 
 def write_query_results(pipeline, header, file_name):
     results = list(collection.aggregate(pipeline))
