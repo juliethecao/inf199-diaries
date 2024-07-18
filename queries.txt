@@ -1,37 +1,35 @@
-popular days and times for meetings (top 3-5) [DONE]
+1. popular days and times for meetings (top 3-5) [DONE]
 =======================================================================================================
-popular days and times for solo work (coding) [DONE]
+2. popular days and times for solo work (coding) [DONE]
+=======================================================================================================
+3. are people taking a lunch break? (top 3-5) [DONE]
+=======================================================================================================
+4. How long do people spend on creative work? [DONE]
+=======================================================================================================
+5. What task are creative? [DONE]
+=======================================================================================================
+6. amount of time during the work-week actually doing "work" vs personal stuff (and lunch) [DONE]
+=======================================================================================================
+7. top 3 participants who did the most creativity [DONE]
+=======================================================================================================
+8. top 3 participants who did the least creativity [DONE]
+=======================================================================================================
+9. how long are managers spending in meetings vs people in more technical roles? [DONE] 
+=======================================================================================================
+10. how long is work collaborative? based on fields [DONE]
+=======================================================================================================
+11. how long are managers spending in HR work (e.g. one-to-ones) vs actual product/delivery work [DONE]
+=======================================================================================================
+12. how long are developers actually coding vs other work? [DONE] How does this vary depending on seniority of a developer?
 =======================================================================================================
 solo vs meetings time split, does this vary per role/experience?
 =======================================================================================================
 types of tasks people doing and how this varies per role/experience? e.g. junior dev vs senior dev
 =======================================================================================================
-are people taking a lunch break? (top 3-5) [DONE]
-=======================================================================================================
-amount of time during the work-week actually doing "work" vs personal stuff (and lunch) [DONE]
-=======================================================================================================
-how long are managers spending in HR work (e.g. one-to-ones) vs actual product/delivery work
-=======================================================================================================
-how long are managers spending in meetings vs people in more technical roles?
-=======================================================================================================
-how long are developers actually coding vs other work? How does this vary depending on seniority of a developer?
-=======================================================================================================
 if hybrid, is there any evidence for what meetings take place in the office? (may need to cross-ref transcripts to see when they are in the office)
-=======================================================================================================
-What task are creative? [DONE]
-=======================================================================================================
-How long do people spend on creative work? [DONE]
-=======================================================================================================
-top 3 participants who did the most creativity [DONE]
-=======================================================================================================
-top 3 participants who did the least creativity [DONE]
-=======================================================================================================
-how long is work collaborative?
 =======================================================================================================
 is there a correlation between having meetings and being creative?
 =======================================================================================================
 are there more conversation or meetings?
 =======================================================================================================
-which fields have more 1-1s than others?
-=======================================================================================================
-how frequent are l
+individual work vs collaborative with respect to fields

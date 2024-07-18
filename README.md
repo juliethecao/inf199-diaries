@@ -3,6 +3,8 @@ TODO:
 - organize code
 - look at article for any potential queries
 - fix directions
+- upload all csvs
+- perform comparisons between roles/fields/work locations
 
 Milestone:
 - create a scripts/directions to be more clear and user-friendly

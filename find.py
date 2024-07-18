@@ -53,6 +53,52 @@ def write_participant_results(pipeline, header, file_name):
             f.write(f"   Participant: {participant:<5} | Total Hours: {hours} hours\n")
         f.write("=======================================================================================================\n")
 
+def write_meeting_comparison_results(pipeline, header, file_name):
+    results = list(collection.aggregate(pipeline))
+    
+    with open(file_name, "a") as f:
+        f.write(header + "\n")
+        for result in results:
+            role = result["_id"]
+            total_meeting_time = result["total_meeting_time"]
+            f.write(f"   Role: {role:<10} | Total Meeting Time: {total_meeting_time} hours\n")
+        f.write("=======================================================================================================\n")
+
+def write_collab_time_results(pipeline, header, file_name):
+    results = list(collection.aggregate(pipeline))
+    
+    with open(file_name, "a") as f:
+        f.write(header + "\n")
+        for result in results:
+            field = result["_id"]
+            total_collab_time = result["total_collab_time"]
+            f.write(f"   Field: {field:<10} | Total Collaborative Time: {total_collab_time} hours\n")
+        f.write("=======================================================================================================\n")
+
+def write_manager_work_results(pipeline, header, file_name):
+    results = list(collection.aggregate(pipeline))
+    
+    with open(file_name, "a") as f:
+        f.write(header + "\n")
+        for result in results:
+            manager = result["_id"]
+            hr_work_time = result["total_hr_work_time"]
+            product_work_time = result["total_product_work_time"]
+            f.write(f"   Manager: {manager:<10} | HR Work Time: {hr_work_time} hours | Product/Delivery Work Time: {product_work_time} hours\n")
+        f.write("=======================================================================================================\n")
+
+def write_developer_work_results(pipeline, header, file_name):
+    results = list(collection.aggregate(pipeline))
+    
+    with open(file_name, "a") as f:
+        f.write(header + "\n")
+        for result in results:
+            developer = result["_id"]
+            coding_time = result["total_coding_time"]
+            other_work_time = result["total_other_work_time"]
+            f.write(f"   Developer: {developer:<10} | Coding Time: {coding_time} hours | Other Work Time: {other_work_time} hours\n")
+        f.write("=======================================================================================================\n")
+
 output_file = "query_results.txt"
 
 one = [
@@ -266,5 +312,193 @@ eight = [
 ]
 
 write_participant_results(eight, "8. Top 3 participants with the least hours in the 'creative' category:", output_file)
+
+nine = [
+    {
+        "$match": {
+            "$or": [
+                {"managerial": "y"},
+                {"technical": "y"}
+            ]
+        }
+    },
+    {
+        "$project": {
+            "participant": 1,
+            "managerial": 1,
+            "technical": 1,
+            "meeting_time": {"$toInt": "$meeting (f)"}
+        }
+    },
+    {
+        "$group": {
+            "_id": {
+                "participant": "$participant",
+                "managerial": "$managerial",
+                "technical": "$technical"
+            },
+            "total_meeting_time": {"$sum": "$meeting_time"}
+        }
+    },
+    {
+        "$project": {
+            "_id": {
+                "$cond": [
+                    {"$eq": ["$_id.managerial", "y"]},
+                    "Manager",
+                    "Technical"
+                ]
+            },
+            "total_meeting_time": 1
+        }
+    },
+    {
+        "$group": {
+            "_id": "$_id",
+            "total_meeting_time": {"$sum": "$total_meeting_time"}
+        }
+    }
+]
+
+write_meeting_comparison_results(nine, "9. Managers vs Technical Roles: Total Meeting Time", output_file)
+
+ten = [
+    {
+        "$match": {
+            "collab": {"$gt": "0"} 
+        }
+    },
+    {
+        "$project": {
+            "field": 1,
+            "collab_time": {"$toInt": "$collab"}
+        }
+    },
+    {
+        "$group": {
+            "_id": "$field",
+            "total_collab_time": {"$sum": "$collab_time"}
+        }
+    },
+    {
+        "$sort": {"total_collab_time": -1}
+    }
+]
+
+write_collab_time_results(ten, "10. Collaborative Work Time by Field", output_file)
+
+eleven = [
+    {
+        "$match": {
+            "managerial": "y"  # Ensures only managers are considered
+        }
+    },
+    {
+        "$project": {
+            "participant": 1,
+            "hr_work_time": {
+                "$sum": [
+                    {"$toInt": "$meeting (f)"},
+                    {"$toInt": "$1-1"}
+                ]
+            },
+            "product_work_time": {
+                "$sum": [
+                    {"$toInt": "$emails"},
+                    {"$toInt": "$slack"},
+                    {"$toInt": "$collab"},
+                    {"$toInt": "$read"},
+                    {"$toInt": "$document"},
+                    {"$toInt": "$investigation"},
+                    {"$toInt": "$prep/plan"},
+                    {"$toInt": "$brainstorm"},
+                    {"$toInt": "$infrastructure"},
+                    {"$toInt": "$training"},
+                    {"$toInt": "$demos"},
+                    {"$toInt": "$proposal"},
+                    {"$toInt": "$presentation"},
+                    {"$toInt": "$feedback"},
+                    {"$toInt": "$review"},
+                    {"$toInt": "$code"},
+                    {"$toInt": "$debug"},
+                    {"$toInt": "$test"},
+                    {"$toInt": "$triage"},
+                    {"$toInt": "$prototype"},
+                    {"$toInt": "$case work"},
+                    {"$toInt": "$ML work"},
+                    {"$toInt": "$design work"}
+                ]
+            }
+        }
+    },
+    {
+        "$group": {
+            "_id": "$participant",
+            "total_hr_work_time": {"$sum": "$hr_work_time"},
+            "total_product_work_time": {"$sum": "$product_work_time"}
+        }
+    },
+    {
+        "$sort": {"_id": 1}
+    }
+]
+
+write_manager_work_results(eleven, "11. HR Work vs Product/Delivery Work for Managers", output_file)
+
+twelve = [
+    {
+        "$match": {
+            "technical": "y",
+            "managerial": "n"  
+        }
+    },
+    {
+        "$project": {
+            "participant": 1,
+            "coding_time": {"$toInt": "$code"},
+            "other_work_time": {
+                "$sum": [
+                    {"$toInt": "$emails"},
+                    {"$toInt": "$slack"},
+                    {"$toInt": "$convo (i)"},
+                    {"$toInt": "$meeting (f)"},
+                    {"$toInt": "$collab"},
+                    {"$toInt": "$1-1"},
+                    {"$toInt": "$read"},
+                    {"$toInt": "$document"},
+                    {"$toInt": "$investigation"},
+                    {"$toInt": "$prep/plan"},
+                    {"$toInt": "$brainstorm"},
+                    {"$toInt": "$infrastructure"},
+                    {"$toInt": "$training"},
+                    {"$toInt": "$demos"},
+                    {"$toInt": "$proposal"},
+                    {"$toInt": "$presentation"},
+                    {"$toInt": "$feedback"},
+                    {"$toInt": "$review"},
+                    {"$toInt": "$debug"},
+                    {"$toInt": "$test"},
+                    {"$toInt": "$triage"},
+                    {"$toInt": "$prototype"},
+                    {"$toInt": "$case work"},
+                    {"$toInt": "$ML work"},
+                    {"$toInt": "$design work"}
+                ]
+            }
+        }
+    },
+    {
+        "$group": {
+            "_id": "$participant",
+            "total_coding_time": {"$sum": "$coding_time"},
+            "total_other_work_time": {"$sum": "$other_work_time"}
+        }
+    },
+    {
+        "$sort": {"_id": 1}
+    }
+]
+
+write_developer_work_results(twelve, "12. Coding vs Other Work for Developers", output_file)
 
 print(f"Query results have been written to '{output_file}'")
