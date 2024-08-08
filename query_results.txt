@@ -5,13 +5,13 @@
 =======================================================================================================
 2. Top 3 popular days and times for solo work (code):
    Day: Tuesday    | Time: 16:00 - 17:00 | Count: 3
-   Day: Thursday   | Time: 13:00 - 14:00 | Count: 2
-   Day: Wednesday  | Time: 13:00 - 14:00 | Count: 2
+   Day: Friday     | Time: 14:00 - 15:00 | Count: 2
+   Day: Friday     | Time: 15:00 - 16:00 | Count: 2
 =======================================================================================================
 3. Top 3 popular days and times for lunch breaks:
-   Day: Wednesday  | Time: 12:00 - 13:00 | Count: 4
    Day: Friday     | Time: 12:00 - 13:00 | Count: 4
-   Day: Tuesday    | Time: 12:00 - 13:00 | Count: 3
+   Day: Wednesday  | Time: 12:00 - 13:00 | Count: 4
+   Day: Monday     | Time: 12:00 - 13:00 | Count: 3
 =======================================================================================================
 4. Top 3 popular days and times for creativity:
    Day: Friday     | Time: 15:00 - 16:00 | Count: 5
@@ -50,8 +50,8 @@
    Participant: p7    | Total Hours: 6 hours
 =======================================================================================================
 9. Managers vs Technical Roles: Total Meeting Time
-   Role: Manager    | Total Meeting Time: 49 hours
    Role: Technical  | Total Meeting Time: 36 hours
+   Role: Manager    | Total Meeting Time: 49 hours
 =======================================================================================================
 10. Collaborative Work Time by Field
    Field: swe        | Total Collaborative Time: 79 hours
@@ -68,4 +68,8 @@
    Developer: p4         | Coding Time: 0 hours | Other Work Time: 108 hours
    Developer: p6         | Coding Time: 7 hours | Other Work Time: 32 hours
    Developer: p7         | Coding Time: 7 hours | Other Work Time: 93 hours
+=======================================================================================================
+13. Time Spent in Meetings vs Convo vs Coding vs Being Creative by Role
+   Role: Managerial | Meeting Time: 49 hours | Convo Time: 33 hours | Coding Time: 19 hours | Creative Time: 63 hours
+   Role: Technical  | Meeting Time: 85 hours | Convo Time: 71 hours | Coding Time: 46 hours | Creative Time: 91 hours
 =======================================================================================================

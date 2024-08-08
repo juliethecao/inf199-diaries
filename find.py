@@ -99,6 +99,20 @@ def write_developer_work_results(pipeline, header, file_name):
             f.write(f"   Developer: {developer:<10} | Coding Time: {coding_time} hours | Other Work Time: {other_work_time} hours\n")
         f.write("=======================================================================================================\n")
 
+def write_role_work_results(pipeline, header, file_name):
+    results = list(collection.aggregate(pipeline))
+    
+    with open(file_name, "a") as f:
+        f.write(header + "\n")
+        for result in results:
+            role = result["_id"]
+            meeting_time = result["total_meeting_time"]
+            convo_time = result["total_convo_time"]
+            coding_time = result["total_coding_time"]
+            creative_time = result["total_creative_time"]
+            f.write(f"   Role: {role:<10} | Meeting Time: {meeting_time} hours | Convo Time: {convo_time} hours | Coding Time: {coding_time} hours | Creative Time: {creative_time} hours\n")
+        f.write("=======================================================================================================\n")
+
 output_file = "query_results.txt"
 
 one = [
@@ -500,5 +514,75 @@ twelve = [
 ]
 
 write_developer_work_results(twelve, "12. Coding vs Other Work for Developers", output_file)
+
+thirteen = [
+    {
+        "$project": {
+            "participant": 1,
+            "managerial": {"$cond": [{"$eq": ["$managerial", "y"]}, 1, 0]},
+            "technical": {"$cond": [{"$eq": ["$technical", "y"]}, 1, 0]},
+            "product_focus": {"$cond": [{"$eq": ["$product focus", "y"]}, 1, 0]},
+            "meeting_time": {"$toInt": "$meeting (f)"},
+            "convo_time": {"$toInt": "$convo (i)"},
+            "coding_time": {"$toInt": "$code"},
+            "creative_time": {"$toInt": "$creative"}
+        }
+    },
+    {
+        "$facet": {
+            "managerial": [
+                {"$match": {"managerial": 1}},
+                {
+                    "$group": {
+                        "_id": "Managerial",
+                        "total_meeting_time": {"$sum": "$meeting_time"},
+                        "total_coding_time": {"$sum": "$coding_time"},
+                        "total_creative_time": {"$sum": "$creative_time"},
+                        "total_convo_time": {"$sum": "$convo_time"}
+                    }
+                }
+            ],
+            "technical": [
+                {"$match": {"technical": 1}},
+                {
+                    "$group": {
+                        "_id": "Technical",
+                        "total_meeting_time": {"$sum": "$meeting_time"},
+                        "total_coding_time": {"$sum": "$coding_time"},
+                        "total_creative_time": {"$sum": "$creative_time"},
+                        "total_convo_time": {"$sum": "$convo_time"}
+                    }
+                }
+            ],
+            "product_focus": [
+                {"$match": {"product_focus": 1}},
+                {
+                    "$group": {
+                        "_id": "Product Focus",
+                        "total_meeting_time": {"$sum": "$meeting_time"},
+                        "total_coding_time": {"$sum": "$coding_time"},
+                        "total_creative_time": {"$sum": "$creative_time"},
+                        "total_convo_time": {"$sum": "$convo_time"}
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "$project": {
+            "results": {"$setUnion": ["$managerial", "$technical", "$product_focus"]}
+        }
+    },
+    {
+        "$unwind": "$results"
+    },
+    {
+        "$replaceRoot": {
+            "newRoot": "$results"
+        }
+    }
+]
+
+write_role_work_results(thirteen, "13. Time Spent in Meetings vs Convo vs Coding vs Being Creative by Role", output_file)
 
 print(f"Query results have been written to '{output_file}'")

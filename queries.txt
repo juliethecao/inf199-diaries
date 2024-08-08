@@ -22,14 +22,10 @@
 =======================================================================================================
 12. how long are developers actually coding vs other work? [DONE] How does this vary depending on seniority of a developer?
 =======================================================================================================
-solo vs meetings time split, does this vary per role/experience?
+13. solo vs meetings time vs convo time vs creative time split, does this vary per role [DONE] /experience?
 =======================================================================================================
 types of tasks people doing and how this varies per role/experience? e.g. junior dev vs senior dev
 =======================================================================================================
 if hybrid, is there any evidence for what meetings take place in the office? (may need to cross-ref transcripts to see when they are in the office)
-=======================================================================================================
-is there a correlation between having meetings and being creative?
-=======================================================================================================
-are there more conversation or meetings?
 =======================================================================================================
 individual work vs collaborative with respect to fields
