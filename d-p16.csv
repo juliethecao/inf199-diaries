@@ -1,0 +1,125 @@
+0,0,0,0,0,0,0,0,0,MONDAY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+participant,role,field,experience,product focus,managerial,technical,work location,day,time,emails,slack,convo (i),meeting (f),collab,1-1,read,document,investigation,prep/plan,brainstorm,infrastructure,training,demos,proposal,presentation,feedback,review,code,debug,test,triage,prototype,case work,ML work,design work,breakfast,lunch,break,pack up,event,WFH,office,appt,emergency,life,out,creative,slides,design,hackathon,architecture,feature,data,tools,effects,plan,learn,replication
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,06:00 - 07:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,07:00 - 08:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,08:00 - 09:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,09:00 - 10:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,10:00 - 11:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,11:00 - 12:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,12:00 - 13:00,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,13:00 - 14:00,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,14:00 - 15:00,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,15:00 - 16:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,16:00 - 17:00,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,17:00 - 18:00,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,18:00 - 19:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,19:00 - 20:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,20:00 - 21:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,21:00 - 22:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,22:00 - 23:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Monday,23:00 - 00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,TUESDAY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+participant,role,field,experience,product focus,managerial,technical,work location,day,time,emails,slack,convo (i),meeting (f),collab,1-1,read,document,investigation,prep/plan,brainstorm,infrastructure,training,demos,proposal,presentation,feedback,review,code,debug,test,triage,prototype,case work,ML work,design work,breakfast,lunch,break,pack up,event,WFH,office,appt,emergency,life,out,creative,slides,design,hackathon,architecture,feature,data,tools,effects,plan,learn,replication
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,06:00 - 07:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,07:00 - 08:00,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,08:00 - 09:00,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,09:00 - 10:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,10:00 - 11:00,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,11:00 - 12:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,12:00 - 13:00,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,13:00 - 14:00,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,14:00 - 15:00,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,15:00 - 16:00,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,16:00 - 17:00,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,17:00 - 18:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,18:00 - 19:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,19:00 - 20:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,20:00 - 21:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,21:00 - 22:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,22:00 - 23:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Tuesday,23:00 - 00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,WEDNESDAY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+participant,role,field,experience,product focus,managerial,technical,work location,day,time,emails,slack,convo (i),meeting (f),collab,1-1,read,document,investigation,prep/plan,brainstorm,infrastructure,training,demos,proposal,presentation,feedback,review,code,debug,test,triage,prototype,case work,ML work,design work,breakfast,lunch,break,pack up,event,WFH,office,appt,emergency,life,out,creative,slides,design,hackathon,architecture,feature,data,tools,effects,plan,learn,replication
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,06:00 - 07:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,07:00 - 08:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,08:00 - 09:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,09:00 - 10:00,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,10:00 - 11:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,11:00 - 12:00,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,12:00 - 13:00,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,13:00 - 14:00,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,14:00 - 15:00,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,15:00 - 16:00,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,16:00 - 17:00,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,17:00 - 18:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,18:00 - 19:00,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,19:00 - 20:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,20:00 - 21:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,21:00 - 22:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,22:00 - 23:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Wednesday,23:00 - 00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,THURSDAY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+participant,role,field,experience,product focus,managerial,technical,work location,day,time,emails,slack,convo (i),meeting (f),collab,1-1,read,document,investigation,prep/plan,brainstorm,infrastructure,training,demos,proposal,presentation,feedback,review,code,debug,test,triage,prototype,case work,ML work,design work,breakfast,lunch,break,pack up,event,WFH,office,appt,emergency,life,out,creative,slides,design,hackathon,architecture,feature,data,tools,effects,plan,learn,replication
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,06:00 - 07:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,07:00 - 08:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,08:00 - 09:00,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,09:00 - 10:00,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,10:00 - 11:00,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,11:00 - 12:00,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,12:00 - 13:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,13:00 - 14:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,14:00 - 15:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,15:00 - 16:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,16:00 - 17:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,17:00 - 18:00,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,18:00 - 19:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,19:00 - 20:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,20:00 - 21:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,21:00 - 22:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,22:00 - 23:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Thursday,23:00 - 00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,FRIDAY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+participant,role,field,experience,product focus,managerial,technical,work location,day,time,emails,slack,convo (i),meeting (f),collab,1-1,read,document,investigation,prep/plan,brainstorm,infrastructure,training,demos,proposal,presentation,feedback,review,code,debug,test,triage,prototype,case work,ML work,design work,breakfast,lunch,break,pack up,event,WFH,office,appt,emergency,life,out,creative,slides,design,hackathon,architecture,feature,data,tools,effects,plan,learn,replication
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,06:00 - 07:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,07:00 - 08:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,08:00 - 09:00,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,09:00 - 10:00,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,10:00 - 11:00,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,11:00 - 12:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,12:00 - 13:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,13:00 - 14:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,14:00 - 15:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,15:00 - 16:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,16:00 - 17:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,17:00 - 18:00,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,18:00 - 19:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,19:00 - 20:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,20:00 - 21:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,21:00 - 22:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,22:00 - 23:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Friday,23:00 - 00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,SATURDAY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+participant,role,field,experience,product focus,managerial,technical,work location,day,time,emails,slack,convo (i),meeting (f),collab,1-1,read,document,investigation,prep/plan,brainstorm,infrastructure,training,demos,proposal,presentation,feedback,review,code,debug,test,triage,prototype,case work,ML work,design work,breakfast,lunch,break,pack up,event,WFH,office,appt,emergency,life,out,creative,slides,design,hackathon,architecture,feature,data,tools,effects,plan,learn,replication
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,06:00 - 07:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,07:00 - 08:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,08:00 - 09:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,09:00 - 10:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,10:00 - 11:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,11:00 - 12:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,12:00 - 13:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,13:00 - 14:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,14:00 - 15:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,15:00 - 16:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,16:00 - 17:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,17:00 - 18:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,18:00 - 19:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,19:00 - 20:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,20:00 - 21:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,21:00 - 22:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,22:00 - 23:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+p16,senior staff engineer,swe,20,n,n,y,onsite,Saturday,23:00 - 00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
