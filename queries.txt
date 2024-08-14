@@ -22,7 +22,9 @@
 =======================================================================================================
 12. how long are developers actually coding vs other work? [DONE] How does this vary depending on seniority of a developer?
 =======================================================================================================
-13. solo vs meetings time vs convo time vs creative time split, does this vary per role [DONE] /experience?
+13. meetings time vs convo time vs creative time split, does this vary per role [DONE] /experience?
+=======================================================================================================
+14. solo vs creative time split, does this vary per role [DONE] /experience?
 =======================================================================================================
 types of tasks people doing and how this varies per role/experience? e.g. junior dev vs senior dev
 =======================================================================================================

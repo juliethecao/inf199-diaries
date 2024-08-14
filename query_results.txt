@@ -1,75 +1,104 @@
 1. Top 3 popular days and times for meetings:
-   Day: Wednesday  | Time: 10:00 - 11:00 | Count: 5
-   Day: Monday     | Time: 10:00 - 11:00 | Count: 4
-   Day: Wednesday  | Time: 11:00 - 12:00 | Count: 4
+   Day: Monday     | Time: 10:00 - 11:00 | Count: 14
+   Day: Wednesday  | Time: 10:00 - 11:00 | Count: 13
+   Day: Tuesday    | Time: 11:00 - 12:00 | Count: 10
 =======================================================================================================
 2. Top 3 popular days and times for solo work (code):
-   Day: Tuesday    | Time: 16:00 - 17:00 | Count: 3
-   Day: Friday     | Time: 14:00 - 15:00 | Count: 2
-   Day: Friday     | Time: 15:00 - 16:00 | Count: 2
+   Day: Wednesday  | Time: 11:00 - 12:00 | Count: 6
+   Day: Monday     | Time: 14:00 - 15:00 | Count: 5
+   Day: Thursday   | Time: 15:00 - 16:00 | Count: 5
 =======================================================================================================
 3. Top 3 popular days and times for lunch breaks:
-   Day: Friday     | Time: 12:00 - 13:00 | Count: 4
-   Day: Wednesday  | Time: 12:00 - 13:00 | Count: 4
-   Day: Monday     | Time: 12:00 - 13:00 | Count: 3
+   Day: Monday     | Time: 12:00 - 13:00 | Count: 15
+   Day: Thursday   | Time: 12:00 - 13:00 | Count: 15
+   Day: Wednesday  | Time: 12:00 - 13:00 | Count: 14
 =======================================================================================================
 4. Top 3 popular days and times for creativity:
-   Day: Friday     | Time: 15:00 - 16:00 | Count: 5
-   Day: Wednesday  | Time: 15:00 - 16:00 | Count: 4
-   Day: Friday     | Time: 14:00 - 15:00 | Count: 4
+   Day: Tuesday    | Time: 14:00 - 15:00 | Count: 14
+   Day: Monday     | Time: 13:00 - 14:00 | Count: 12
+   Day: Wednesday  | Time: 15:00 - 16:00 | Count: 11
 =======================================================================================================
 5. Total time spent on creative work subcategories:
-   Sub-category: slides          | Total Time: 0 hours
-   Sub-category: design          | Total Time: 12 hours
-   Sub-category: hackathon       | Total Time: 0 hours
-   Sub-category: architecture    | Total Time: 37 hours
-   Sub-category: feature         | Total Time: 10 hours
-   Sub-category: data            | Total Time: 24 hours
-   Sub-category: tools           | Total Time: 3 hours
+   Sub-category: slides          | Total Time: 13 hours
+   Sub-category: design          | Total Time: 28 hours
+   Sub-category: hackathon       | Total Time: 1 hours
+   Sub-category: architecture    | Total Time: 77 hours
+   Sub-category: feature         | Total Time: 20 hours
+   Sub-category: data            | Total Time: 44 hours
+   Sub-category: tools           | Total Time: 19 hours
    Sub-category: effects         | Total Time: 4 hours
-   Sub-category: plan            | Total Time: 14 hours
-   Sub-category: learn           | Total Time: 0 hours
+   Sub-category: plan            | Total Time: 82 hours
+   Sub-category: learn           | Total Time: 13 hours
    Sub-category: replication     | Total Time: 3 hours
 =======================================================================================================
 6. Amount of time during the work-week actually doing 'work' vs personal stuff (and lunch):
-   Day: Friday     | Work Time: 133.0 hours | Personal Time: 7.0 hours
-   Day: Monday     | Work Time: 140.0 hours | Personal Time: 5.0 hours
+   Day: Friday     | Work Time: 387.0 hours | Personal Time: 30.0 hours
+   Day: Monday     | Work Time: 513.0 hours | Personal Time: 34.0 hours
    Day: Saturday   | Work Time: 19.0 hours | Personal Time: 1.0 hours
-   Day: Thursday   | Work Time: 146.0 hours | Personal Time: 5.0 hours
-   Day: Tuesday    | Work Time: 144.0 hours | Personal Time: 8.0 hours
-   Day: Wednesday  | Work Time: 151.0 hours | Personal Time: 9.0 hours
+   Day: Thursday   | Work Time: 483.0 hours | Personal Time: 30.0 hours
+   Day: Tuesday    | Work Time: 507.0 hours | Personal Time: 35.0 hours
+   Day: Wednesday  | Work Time: 546.0 hours | Personal Time: 34.0 hours
 =======================================================================================================
 7. Top 3 participants with the most hours in the 'creative' category:
    Participant: p2    | Total Hours: 32 hours
+   Participant: p17   | Total Hours: 25 hours
    Participant: p8    | Total Hours: 24 hours
-   Participant: p1    | Total Hours: 12 hours
 =======================================================================================================
 8. Top 3 participants with the least hours in the 'creative' category:
-   Participant: p6    | Total Hours: 5 hours
-   Participant: p4    | Total Hours: 5 hours
-   Participant: p7    | Total Hours: 6 hours
+   Participant: p11   | Total Hours: 2 hours
+   Participant: p9    | Total Hours: 2 hours
+   Participant: p21   | Total Hours: 3 hours
 =======================================================================================================
 9. Managers vs Technical Roles: Total Meeting Time
-   Role: Technical  | Total Meeting Time: 36 hours
-   Role: Manager    | Total Meeting Time: 49 hours
+   Role: Manager    | Total Meeting Time: 109 hours
+   Role: Technical  | Total Meeting Time: 149 hours
 =======================================================================================================
 10. Collaborative Work Time by Field
-   Field: swe        | Total Collaborative Time: 79 hours
-   Field: ds         | Total Collaborative Time: 22 hours
+   Field: swe        | Total Collaborative Time: 227 hours
+   Field: pgm        | Total Collaborative Time: 49 hours
+   Field: pdm        | Total Collaborative Time: 42 hours
+   Field: ds         | Total Collaborative Time: 28 hours
+   Field: cto        | Total Collaborative Time: 17 hours
    Field: supp       | Total Collaborative Time: 17 hours
+   Field: arch       | Total Collaborative Time: 15 hours
+   Field: ux         | Total Collaborative Time: 14 hours
 =======================================================================================================
 11. HR Work vs Product/Delivery Work for Managers
+   Manager: p11        | HR Work Time: 12 hours | Product/Delivery Work Time: 34 hours
+   Manager: p12        | HR Work Time: 15 hours | Product/Delivery Work Time: 62 hours
+   Manager: p17        | HR Work Time: 18 hours | Product/Delivery Work Time: 34 hours
    Manager: p2         | HR Work Time: 15 hours | Product/Delivery Work Time: 59 hours
+   Manager: p21        | HR Work Time: 14 hours | Product/Delivery Work Time: 43 hours
+   Manager: p22        | HR Work Time: 13 hours | Product/Delivery Work Time: 34 hours
+   Manager: p27        | HR Work Time: 17 hours | Product/Delivery Work Time: 58 hours
+   Manager: p28        | HR Work Time: 17 hours | Product/Delivery Work Time: 60 hours
    Manager: p5         | HR Work Time: 14 hours | Product/Delivery Work Time: 52 hours
    Manager: p8         | HR Work Time: 24 hours | Product/Delivery Work Time: 91 hours
 =======================================================================================================
 12. Coding vs Other Work for Developers
    Developer: p1         | Coding Time: 13 hours | Other Work Time: 42 hours
+   Developer: p10        | Coding Time: 0 hours | Other Work Time: 33 hours
+   Developer: p14        | Coding Time: 0 hours | Other Work Time: 69 hours
+   Developer: p16        | Coding Time: 0 hours | Other Work Time: 106 hours
+   Developer: p18        | Coding Time: 11 hours | Other Work Time: 69 hours
+   Developer: p19        | Coding Time: 13 hours | Other Work Time: 51 hours
+   Developer: p23        | Coding Time: 7 hours | Other Work Time: 56 hours
+   Developer: p24        | Coding Time: 0 hours | Other Work Time: 57 hours
+   Developer: p25        | Coding Time: 0 hours | Other Work Time: 87 hours
+   Developer: p26        | Coding Time: 2 hours | Other Work Time: 78 hours
+   Developer: p29        | Coding Time: 3 hours | Other Work Time: 70 hours
    Developer: p4         | Coding Time: 0 hours | Other Work Time: 108 hours
    Developer: p6         | Coding Time: 7 hours | Other Work Time: 32 hours
    Developer: p7         | Coding Time: 7 hours | Other Work Time: 93 hours
+   Developer: p9         | Coding Time: 9 hours | Other Work Time: 80 hours
 =======================================================================================================
-13. Time Spent in Meetings vs Convo vs Coding vs Being Creative by Role
-   Role: Managerial | Meeting Time: 49 hours | Convo Time: 33 hours | Coding Time: 19 hours | Creative Time: 63 hours
-   Role: Technical  | Meeting Time: 85 hours | Convo Time: 71 hours | Coding Time: 46 hours | Creative Time: 91 hours
+13. Time Spent in Meetings vs Convo by Role
+   Role: Managerial      | Meeting Time: 109 hours | Convo Time: 99 hours
+   Role: Product Focus   | Meeting Time: 40 hours | Convo Time: 30 hours
+   Role: Technical       | Meeting Time: 216 hours | Convo Time: 141 hours
+=======================================================================================================
+14. Time Spent in Coding vs Being Creative by Role
+   Role: Managerial      | Coding Time: 35 hours | Creative Time: 132 hours
+   Role: Product Focus   | Coding Time: 1 hours | Creative Time: 56 hours
+   Role: Technical       | Coding Time: 106 hours | Creative Time: 206 hours
 =======================================================================================================
