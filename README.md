@@ -2,9 +2,18 @@ TODO:
 - run queries for sampling
 - organize code
 - perform comparisons between roles/fields/work locations
+- make folders for drafted diaries and processed diaries, respectively
 
-Milestone:
-- create a scripts/directions to be more clear and user-friendly
+Questions:
+- Based on results of coding hours, perhaps look at transcripts and update csvs
+   - look thru via 2-3 diary logs to calc code hours vs others
+   - review query logic to see any discrepancies
+- what is really considered as solo work (right now just "code" category)
+   - what is considered programming (code, triage, test, etc)
+- num of exp distinction
+   - got 2nd opinion
+- consider taking out those who work less days
+- take avg meeting times between managers and developers
 
 Directions on how to run:
 1) Run pip install -r requirements.txt in your terminal
