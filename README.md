@@ -14,6 +14,8 @@ Questions:
    - got 2nd opinion
 - consider taking out those who work less days
 - take avg meeting times between managers and developers
+- can managers still be developers???
+- if tied, show all for queries that order or rank (ex: query #1) (take approac)
 
 Directions on how to run:
 1) Run pip install -r requirements.txt in your terminal

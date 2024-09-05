@@ -1,11 +1,11 @@
 1. Top 3 popular days and times for meetings:
    Day: Monday     | Time: 10:00 - 11:00 | Count: 14
    Day: Wednesday  | Time: 10:00 - 11:00 | Count: 13
-   Day: Tuesday    | Time: 11:00 - 12:00 | Count: 10
+   Day: Thursday   | Time: 12:00 - 13:00 | Count: 10
 =======================================================================================================
 2. Top 3 popular days and times for solo work (code):
    Day: Wednesday  | Time: 11:00 - 12:00 | Count: 6
-   Day: Monday     | Time: 14:00 - 15:00 | Count: 5
+   Day: Wednesday  | Time: 13:00 - 14:00 | Count: 5
    Day: Thursday   | Time: 15:00 - 16:00 | Count: 5
 =======================================================================================================
 3. Top 3 popular days and times for lunch breaks:
@@ -16,7 +16,7 @@
 4. Top 3 popular days and times for creativity:
    Day: Tuesday    | Time: 14:00 - 15:00 | Count: 14
    Day: Monday     | Time: 13:00 - 14:00 | Count: 12
-   Day: Wednesday  | Time: 15:00 - 16:00 | Count: 11
+   Day: Tuesday    | Time: 13:00 - 14:00 | Count: 11
 =======================================================================================================
 5. Total time spent on creative work subcategories:
    Sub-category: slides          | Total Time: 13 hours
@@ -50,8 +50,8 @@
    Participant: p21   | Total Hours: 3 hours
 =======================================================================================================
 9. Managers vs Technical Roles: Total Meeting Time
-   Role: Manager    | Total Meeting Time: 109 hours
-   Role: Technical  | Total Meeting Time: 149 hours
+   Role: Manager    | Total Meeting Time: 109 hours | Average Meeting Time: 10.9
+   Role: Developer  | Total Meeting Time: 149 hours | Average Meeting Time: 9.9
 =======================================================================================================
 10. Collaborative Work Time by Field
    Field: swe        | Total Collaborative Time: 227 hours

@@ -61,7 +61,8 @@ def write_meeting_comparison_results(pipeline, header, file_name):
         for result in results:
             role = result["_id"]
             total_meeting_time = result["total_meeting_time"]
-            f.write(f"   Role: {role:<10} | Total Meeting Time: {total_meeting_time} hours\n")
+            avg_meeting_time = result["average_meeting_time"]
+            f.write(f"   Role: {role:<10} | Total Meeting Time: {total_meeting_time} hours | Average Meeting Time: {avg_meeting_time}\n")
         f.write("=======================================================================================================\n")
 
 def write_collab_time_results(pipeline, header, file_name):
@@ -366,11 +367,11 @@ nine = [
     },
     {
         "$project": {
-            "_id": {
+            "role": {
                 "$cond": [
                     {"$eq": ["$_id.managerial", "y"]},
                     "Manager",
-                    "Technical"
+                    {"$cond": [{"$eq": ["$_id.technical", "y"]}, "Developer", None]}
                 ]
             },
             "total_meeting_time": 1
@@ -378,8 +379,17 @@ nine = [
     },
     {
         "$group": {
-            "_id": "$_id",
-            "total_meeting_time": {"$sum": "$total_meeting_time"}
+            "_id": "$role",
+            "total_meeting_time": {"$sum": "$total_meeting_time"},
+            "count": {"$sum": 1}
+        }
+    },
+    {
+        "$project": {
+            "total_meeting_time": 1,
+            "average_meeting_time": {
+                "$round": [{"$divide": ["$total_meeting_time", "$count"]}, 1]
+            }
         }
     }
 ]
