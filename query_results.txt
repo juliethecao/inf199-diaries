@@ -1,16 +1,16 @@
 1. Top 3 popular days and times for meetings:
    Day: Monday     | Time: 10:00 - 11:00 | Count: 14
    Day: Wednesday  | Time: 10:00 - 11:00 | Count: 13
-   Day: Thursday   | Time: 12:00 - 13:00 | Count: 10
+   Day: Wednesday  | Time: 15:00 - 16:00 | Count: 10
 =======================================================================================================
 2. Top 3 popular days and times for solo work (code):
    Day: Wednesday  | Time: 11:00 - 12:00 | Count: 6
+   Day: Monday     | Time: 14:00 - 15:00 | Count: 5
    Day: Wednesday  | Time: 13:00 - 14:00 | Count: 5
-   Day: Thursday   | Time: 15:00 - 16:00 | Count: 5
 =======================================================================================================
 3. Top 3 popular days and times for lunch breaks:
-   Day: Monday     | Time: 12:00 - 13:00 | Count: 15
    Day: Thursday   | Time: 12:00 - 13:00 | Count: 15
+   Day: Monday     | Time: 12:00 - 13:00 | Count: 15
    Day: Wednesday  | Time: 12:00 - 13:00 | Count: 14
 =======================================================================================================
 4. Top 3 popular days and times for creativity:
@@ -45,23 +45,23 @@
    Participant: p8    | Total Hours: 24 hours
 =======================================================================================================
 8. Top 3 participants with the least hours in the 'creative' category:
-   Participant: p11   | Total Hours: 2 hours
    Participant: p9    | Total Hours: 2 hours
+   Participant: p11   | Total Hours: 2 hours
    Participant: p21   | Total Hours: 3 hours
 =======================================================================================================
 9. Managers vs Technical Roles: Total Meeting Time
-   Role: Manager    | Total Meeting Time: 109 hours | Average Meeting Time: 10.9
    Role: Developer  | Total Meeting Time: 149 hours | Average Meeting Time: 9.9
+   Role: Manager    | Total Meeting Time: 109 hours | Average Meeting Time: 10.9
 =======================================================================================================
 10. Collaborative Work Time by Field
-   Field: swe        | Total Collaborative Time: 227 hours
-   Field: pgm        | Total Collaborative Time: 49 hours
-   Field: pdm        | Total Collaborative Time: 42 hours
-   Field: ds         | Total Collaborative Time: 28 hours
-   Field: cto        | Total Collaborative Time: 17 hours
-   Field: supp       | Total Collaborative Time: 17 hours
-   Field: arch       | Total Collaborative Time: 15 hours
-   Field: ux         | Total Collaborative Time: 14 hours
+   Field: swe        | Total Collaborative Time: 227 hours | Average Collab Time: 15.1 hours
+   Field: pgm        | Total Collaborative Time: 49 hours | Average Collab Time: 16.3 hours
+   Field: pdm        | Total Collaborative Time: 42 hours | Average Collab Time: 14.0 hours
+   Field: ds         | Total Collaborative Time: 28 hours | Average Collab Time: 14.0 hours
+   Field: supp       | Total Collaborative Time: 17 hours | Average Collab Time: 17.0 hours
+   Field: cto        | Total Collaborative Time: 17 hours | Average Collab Time: 17.0 hours
+   Field: arch       | Total Collaborative Time: 15 hours | Average Collab Time: 15.0 hours
+   Field: ux         | Total Collaborative Time: 14 hours | Average Collab Time: 7.0 hours
 =======================================================================================================
 11. HR Work vs Product/Delivery Work for Managers
    Manager: p11        | HR Work Time: 12 hours | Product/Delivery Work Time: 34 hours

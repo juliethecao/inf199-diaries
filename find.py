@@ -73,7 +73,8 @@ def write_collab_time_results(pipeline, header, file_name):
         for result in results:
             field = result["_id"]
             total_collab_time = result["total_collab_time"]
-            f.write(f"   Field: {field:<10} | Total Collaborative Time: {total_collab_time} hours\n")
+            avg_collab_time = result["average_collab_time"]
+            f.write(f"   Field: {field:<10} | Total Collaborative Time: {total_collab_time} hours | Average Collab Time: {avg_collab_time} hours\n")
         f.write("=======================================================================================================\n")
 
 def write_manager_work_results(pipeline, header, file_name):
@@ -399,19 +400,39 @@ write_meeting_comparison_results(nine, "9. Managers vs Technical Roles: Total Me
 ten = [
     {
         "$match": {
-            "collab": {"$gt": "0"} 
+            "collab": {"$gt": "0"}
         }
     },
     {
         "$project": {
             "field": 1,
+            "participant": 1,
             "collab_time": {"$toInt": "$collab"}
         }
     },
     {
         "$group": {
-            "_id": "$field",
+            "_id": {
+                "field": "$field",
+                "participant": "$participant"
+            },
             "total_collab_time": {"$sum": "$collab_time"}
+        }
+    },
+    {
+        "$group": {
+            "_id": "$_id.field",
+            "total_collab_time": {"$sum": "$total_collab_time"},
+            "participant_count": {"$sum": 1}
+        }
+    },
+    {
+        "$project": {
+            "total_collab_time": 1,
+            "participant_count": 1,
+            "average_collab_time": {
+                "$round": [{"$divide": ["$total_collab_time", "$participant_count"]}, 1]
+            }
         }
     },
     {

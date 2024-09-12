@@ -10,8 +10,6 @@ Questions:
    - review query logic to see any discrepancies
 - what is really considered as solo work (right now just "code" category)
    - what is considered programming (code, triage, test, etc)
-- num of exp distinction
-   - got 2nd opinion
 - consider taking out those who work less days
 - take avg meeting times between managers and developers
 - can managers still be developers???
