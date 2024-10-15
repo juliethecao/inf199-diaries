@@ -25,6 +25,7 @@ Directions on how to run:
 7) Check if the collection has been populated by filtering with {participant: "p#"} in the filter section on MongoDB
 8) Run python3 find.py
 9) Check if a new txt file is created called query_results.txt
+10) To do this in bulk, firstly run convert.py in a shell window. This converts all the files beginning with p# (excluding 3 and 20) into the d- format. Then run upload.py to upload each of them to the database.
 
 voila! all done!
 
