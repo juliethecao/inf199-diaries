@@ -1,19 +1,24 @@
-TODO:
-- run queries for sampling
-- organize code
-- perform comparisons between roles/fields/work locations
-- make folders for drafted diaries and processed diaries, respectively
+
+Analysis (most notable ones):
+- (#1) popular days for meetings on Mondays and Wednesdays
+- (#5) top 3 types of creative work: architecture (77 hours), data (44 hours), plan (82 hours)
+- (#6) least amount of time doing work is on Friday and most on Mondays-Wednesdays
+- (#9) avg meeting time between managers and devlopers are 9.9 and 10.9 hours respectively (very close)
+- (#13) meetings vs convo times for managerial role have a rough 1:1 ratio
+- (#14) coding vs creative times for managerial is 1:4, technical 1:2
+
+TODO (priority from top to bottom):
+>>> focus on fixing logic for query results
+   - 6 (triple check this)
+   - 11 (# hours don't align on a typical work day)
+   - 12 (check definition of coding via transcripts)
+>> perform comparisons between roles/fields/work locations
+> make folders for drafted diaries and processed diaries, respectively
 
 Questions:
 - Based on results of coding hours, perhaps look at transcripts and update csvs
    - look thru via 2-3 diary logs to calc code hours vs others
    - review query logic to see any discrepancies
-- what is really considered as solo work (right now just "code" category)
-   - what is considered programming (code, triage, test, etc)
-- consider taking out those who work less days
-- take avg meeting times between managers and developers
-- can managers still be developers???
-- if tied, show all for queries that order or rank (ex: query #1) (take approac)
 
 Directions on how to run:
 1) Run pip install -r requirements.txt in your terminal
